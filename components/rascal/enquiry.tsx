@@ -10,7 +10,7 @@ export default function Enquiry(){
   }
   async function copy(){try{await navigator.clipboard.writeText(draft);setStatus('Copied. Paste your enquiry into an Instagram message to the bar.')}catch{setStatus('Select the message above and copy it, then send it to the bar on Instagram.')}}
   return <div className="enquiry-layout"><form onSubmit={prepare} className="enquiry-form">
-    <label>WHAT’S THE OCCASION?<select name="kind" defaultValue="Private event"><option>Private event</option><option>Play a gig</option><option>Group visit</option><option>General enquiry</option></select></label>
+    <label>WHAT’S THE OCCASION?<select name="kind" defaultValue="Private event"><option>Private event</option><option>Play a gig</option><option>General enquiry</option></select></label>
     <div className="field-pair"><label>YOUR NAME<input name="name" autoComplete="name" required maxLength={120}/></label><label>EMAIL<input name="email" type="email" autoComplete="email" required maxLength={254}/></label></div>
     <div className="field-pair"><label>PREFERRED DATE<input name="date" type="date"/></label><label>GUESTS<input name="guests" type="number" min="1" max="1000"/></label></div>
     <label>THE DETAILS<textarea name="message" required maxLength={3000} rows={5} placeholder="Tell us what you have in mind."/></label>

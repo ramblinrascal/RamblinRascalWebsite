@@ -11,7 +11,7 @@ export const menu = {
     ['PALOMA','$18','Tequila, grapefruit, lime, agave, soda.'],
     ['LYCHEE MARTINI','$18','Slushy. Whipped.'],
     ['BLOODY MARY / MARIA / RED SNAPPER','$18','Pick your spirit. We’ll sort the rest.'],
-    ['SHIT TIN','$6','Not good. That’s the point.'],
+    ['SHIT TINNIE','','Not good. That’s the point.'],
     ['PREMIUM SHIT TIN','$8','A very modest upgrade.'],
     ['MASALA & COKE','$8','The house knows what it’s doing.'],
     ['COGNAC & APPLE','$15','Simple. Stiff. An apple a day.']

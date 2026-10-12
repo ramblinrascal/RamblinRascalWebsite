@@ -15,7 +15,7 @@ export default function About() {
           <p className="sub-kicker">RAMBLIN’ RASCAL / ABOUT US</p>
           <p className="about-stars" aria-label="Five star"><span aria-hidden="true">★★★★★</span><span>EST. 2014 · SYDNEY</span></p>
           <h1 id="about-title">5 STAR<br/><span>DIVE BAR.</span></h1>
-          <p className="about-hero-note">World class cocktails.<br/>Six dollar shit tins.<br/>Same warm welcome.</p>
+          <p className="about-hero-note">World class cocktails.<br/>Shit Tinnie.<br/>Same warm welcome.</p>
           <a className="text-link" href="#our-story">THE STORY BELOW ↓</a>
         </div>
         <figure className="about-patch">
@@ -30,7 +30,7 @@ export default function About() {
           <h2 id="story-title">BORN ON<br/>THE BACK STOOLS.</h2>
           <p>Ramblin’ Rascal Tavern was established in 2014 as Sydney’s premier 5 Star Dive Bar.</p>
           <p>Born off the back stools of The Baxter Inn, where the three owners claim their pedigree, the Rascals built a watering hole around honest, straight up and down hospitality.</p>
-          <p>World class cocktails or $6 shit tins. Whatever’s in your glass, making you feel at home is the philosophy.</p>
+          <p>World class cocktails or a Shit Tinnie. Whatever’s in your glass, making you feel at home is the philosophy.</p>
         </div>
       </section>
 
