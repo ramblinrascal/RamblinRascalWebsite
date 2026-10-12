@@ -1,0 +1,5 @@
+import type { Metadata } from 'next';
+import Subpage from '@/components/rascal/subpage';
+import { merch, instagram } from '@/lib/rascal-data';
+export const metadata:Metadata={title:'Merch · Ramblin’ Rascal',description:'The Ramblin’ Rascal tees, hoodie and three-skull patch.'};
+export default function Shop(){return <Subpage><p className="sub-kicker">RASCAL MERCH</p><h1 className="sub-title">WEAR THE<br/>BAD INFLUENCE.</h1><p className="shop-intro">The last published range is sold out. Ask the crew about the next drop.</p><a className="sub-button" href={instagram} target="_blank" rel="noopener noreferrer">ASK ABOUT RESTOCKS</a><div className="merch-grid">{merch.map(item=><article className="merch-card" key={item.name}><div className="merch-image"><img src={item.image} alt={item.name} width="800" height="800" loading="lazy"/><span>SOLD OUT</span></div><div className="merch-caption"><h2>{item.name}</h2><span>A${item.price.toFixed(2)}</span></div></article>)}</div><p className="form-note">Published prices in AUD. No online checkout is currently available.</p></Subpage>}
