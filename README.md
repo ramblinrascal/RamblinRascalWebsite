@@ -1,6 +1,6 @@
 # Ramblin’ Rascal website
 
-Independent Next.js static website. The homepage design, Three.js can animation, overalls and cursor are preserved. Booking and merch links open new local pages.
+Independent Next.js static website. The homepage design, Three.js can animation, overalls and cursor are preserved. About, booking and merch links open local pages. Official patch and coaster logos are included.
 
 ## Run and build
 
@@ -31,6 +31,7 @@ For Netlify, connect the repository. The included netlify.toml sets the build co
 
 ## Everyday edits
 
+- About page: `app/about/page.tsx`.
 - Menu and merch: `lib/rascal-data.ts`.
 - Homepage copy/hours/links: `components/rascal/story.tsx`.
 - Booking page: `app/bookings/page.tsx` and `components/rascal/enquiry.tsx`.
@@ -43,9 +44,9 @@ Make changes on a branch, build and review the hosting preview, then merge to ma
 
 ## Booking and shop limits — resolve before replacing Squarespace
 
-The booking page prepares a message locally; it does not collect or transmit personal information. Visitors copy the message and send it to the official Instagram account. It never claims an enquiry was sent or a booking confirmed.
+The booking page prepares a message locally; it does not collect or transmit personal information. Visitors copy the message and send it to the official Instagram account, or open a prefilled email draft. It never claims an enquiry was sent or a booking confirmed.
 
-`bookingEmail` in `lib/rascal-data.ts` is deliberately empty because an official destination could not be verified. Add the bar’s confirmed address to enable an email-draft handoff. That opens the visitor’s email application; it is not direct form delivery. To deliver from the website itself, connect a form provider or a server endpoint with spam protection and test receipt at the bar’s inbox. Do not cancel their existing enquiry service until the replacement is approved and tested.
+`bookingEmail` in `lib/rascal-data.ts` uses charlie@ramblinrascal.com from the supplied venue hire deck and enables an email-draft handoff alongside Instagram. That opens the visitor’s email application; it is not direct form delivery. To deliver from the website itself, connect a form provider or a server endpoint with spam protection and test receipt at the bar’s inbox. Do not cancel their existing enquiry service until the replacement is approved and tested.
 
 The official Squarespace shop listed all seven products as sold out when checked on 8 October 2026. This package is an honest catalogue with those prices and a restock contact link. It has no cart, stock management or payment processing. Add an agreed commerce service if online sales are required; do not cancel required Squarespace commerce until that is ready.
 

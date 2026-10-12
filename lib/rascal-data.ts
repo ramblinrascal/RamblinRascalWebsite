@@ -39,8 +39,8 @@ export const instagram='https://www.instagram.com/ramblinrascaltavern/';
 export const directions='https://www.google.com/maps/search/?api=1&query=Ramblin+Rascal+Tavern+199+Elizabeth+Street+Sydney';
 export const chapters=[['intro','THE TIN'],['drinks','DRINKS'],['gigs','GIGS'],['rascals','THE RASCALS'],['find-us','FIND US']];
 
-// Set only after the bar confirms the address. Empty uses an honest Instagram handoff.
-export const bookingEmail: string = '';
+// Official contact supplied in the bar’s venue hire deck. This opens an email draft; it is not a form backend.
+export const bookingEmail: string = 'charlie@ramblinrascal.com';
 export const merch = [
  {name:'SKULLS PATCH · 76MM',price:10,image:'/images/skulls-patch.jpg'},
  {name:'CLASSIC TEE · BLACK',price:45,image:'/images/classic-tee.jpg'},
