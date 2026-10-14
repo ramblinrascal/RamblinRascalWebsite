@@ -11,7 +11,8 @@ export const menu = {
     ['BOOZED JUICE', '$15', ''],
     ['BLOODY SHAKSHUKA MARY', '$25', ''],
     ['IRISH COFFEE', '$18', ''],
-    ['MASALA AND COKE', '$6', '']
+    ['MASALA AND COKE', '$6', ''],
+    ['ALL CLASSIC COCKTAILS', '', 'Available so long as we have the ingredients.']
   ],
   beer: [
     ['SHIT TINNIE', '', ''],
