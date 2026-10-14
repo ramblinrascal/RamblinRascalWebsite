@@ -1,40 +1,42 @@
 export const menu = {
   signatures: [
-    ['GOD’S POCKET','$25','Tarragon gin, lemon, raspberry, white cacao, spiked soda.'],
-    ['KARAOKE KING','$25','Cognac. Green tea.'],
-    ['MUMS BREAKFAST','$25','Gin, mandarin vermouth, mandarin jam, lemon, egg white.'],
-    ['SILK SONIC','$25','Tequila, grapefruit, lime, capsicum. Contains dairy.'],
-    ['SPOONFUL','$25','Cognac, sweet vermouth, cola citrus, bitters, coffee liqueur.'],
-    ['FAULTY TOWERS NATIONAL','$25','Tequila, apricot, lime, orgeat, basil.']
+    ['MANSPLAINER', '$25', 'Spiced rhubarb vodka - lemon - ginger - Cointreau'],
+    ["GATOR DON'T PLAY", '$25', 'Jim Beam Rye - Earl Grey - lemon - peach - Prosecco'],
+    ['BIG IN JAPAN', '$25', 'Betta Gin - Midori - bianco vermouth - Yuzushu - lemon'],
+    ['BARBARELLA', '$25', 'Habanero-infused tequila - Aperol - grapefruit cordial - lime - muddled cucumber'],
+    ['RASCAL COFFEE FRAPPE', '$25', 'Jameson - Borgehtti coffee liqueur - demerara sugar - coffee - lactose-free milk'],
+    ['MAGIC CARPET RIDE', '$25', 'Bacardi rum - passionfruit - mango - lime']
   ],
-  house: [
-    ['PALOMA','$18','Tequila, grapefruit, lime, agave, soda.'],
-    ['LYCHEE MARTINI','$18','Slushy. Whipped.'],
-    ['BLOODY MARY / MARIA / RED SNAPPER','$18','Pick your spirit. We’ll sort the rest.'],
-    ['SHIT TINNIE','','Not good. That’s the point.'],
-    ['PREMIUM SHIT TIN','$8','A very modest upgrade.'],
-    ['MASALA & COKE','$8','The house knows what it’s doing.'],
-    ['COGNAC & APPLE','$15','Simple. Stiff. An apple a day.']
+  classics: [
+    ['BOOZED JUICE', '$15', ''],
+    ['BLOODY SHAKSHUKA MARY', '$25', ''],
+    ['IRISH COFFEE', '$18', ''],
+    ['MASALA AND COKE', '$6', '']
   ],
   beer: [
-    ['BATTLER BITTER','ASK','On tap · Willie the Boatman, St Peters.'],
-    ['YOUNG HENRYS COLD XPA','ASK','On tap · Newtown.'],
-    ['PALE ALE','ASK','Ask what’s pouring.'],
-    ['HEAPS NORMAL QUIET XPA','$11','Less than 0.5% · Marrickville.'],
-    ['BALTER CAPTAIN SENSIBLE','$13','3.5% midstrength · Currumbin.'],
-    ['SYDNEY BREWERY PALE ALE','$10','5.0% American pale · Surry Hills.'],
-    ['YOUNG HENRYS IPA','$13','6.0% West Coast IPA · Newtown.'],
-    ['PHILTER OLD ALE','$13','4.5% old ale · Marrickville.'],
-    ['SYDNEY BREWERY ORIGINAL CIDER','$10','4.5% apple cider · Surry Hills.'],
-    ['YOUNG HENRYS GINGER BEER','$13','4.0% hard ginger beer · Newtown.'],
-    ['MOON DOG FIZZER','$13','4.0% alcoholic seltzer · Preston.']
+    ['SHIT TINNIE', '', ''],
+    ['HAWKES PATIO PALE ALE', '$12', ''],
+    ["YOUNG HENRY'S IPA", '$13', ''],
+    ['PHILTER OLD', '$14', ''],
+    ["YOUNG HENRY'S GINGERBEER", '$14', ''],
+    ["YULLI'S APPLE CIDER", '$11', ''],
+    ['DRIVER NON-ALC', '$11', ''],
+    ["YOUNG HENRY'S 5 STAR DIVE BAR LAGER", '$11', ''],
+    ["HAWKES DON'T BE A DICK LAGER", '$11', ''],
+    ['PHILTER XPA', '$13', '']
   ],
   food: [
-    ['DEVON SANGA','$2','White bread, devon, tomato sauce, margarine.'],
-    ['RASCAL CLUB SANGA','$5','The devon sanga, doubled up with an extra slice.'],
-    ['BUTTER','ASK','Available to order at the bar.']
+    ['DEVON SANGA', '$2', 'White bread, devon, tomato sauce, margarine.'],
+    ['RASCAL CLUB SANGA', '$5', 'The devon sanga, doubled up with an extra slice.'],
+    ['BUTTER', 'ASK', 'Available to order at the bar.']
   ]
 };
+export const menuCategories = [
+  { id: 'signatures', label: 'SIGNATURES', title: 'Signatures' },
+  { id: 'classics', label: 'CLASSICS', title: '5 Star Dive Bar Classics' },
+  { id: 'beer', label: 'TINS & TAPS', title: 'Tins and Taps' },
+  { id: 'food', label: 'FOOD', title: 'Food' }
+];
 export const instagram='https://www.instagram.com/ramblinrascaltavern/';
 export const directions='https://www.google.com/maps/search/?api=1&query=Ramblin+Rascal+Tavern+199+Elizabeth+Street+Sydney';
 export const chapters=[['intro','THE TIN'],['drinks','DRINKS'],['gigs','GIGS'],['rascals','THE RASCALS'],['find-us','FIND US']];
